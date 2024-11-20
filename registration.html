@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link type="stylesheet" href="styles.css">
+	<style>
+		body{
+			background-color: red;
+
+		}
+		.bg{
+			background-color: green;
+
+		}
+	</style>
+</head>
+<body>	
+<center class="bg"> 
+	<h1>Registration page</h1>
+	<form action="registration" method="GET">
+		<label>First Name</label>
+		<input type="text" name="fname"><br>
+		<label>Last Name</label>
+		<input type="text" name="Lname" placeholder="Enter Your name"><br>
+		<label>Date Of Birth</label>
+		<input type="date" name="dob"><br>
+<label>Email</label> 
+       <input type="email" name="email"><br>
+       <label>Gender</label>
+       <input type="radio" name="Gender">Male </input>
+        <input type="radio" name="Gender">Female </input><br>
+        <label>Phone No</label>
+        <input type="number" name="phno"><br>
+        <label>Address</label>
+        <input type="textarea"  rows=5 cols=5 name="addr"><br>
+          <input type="checkbox">Accept terms and conditions
+          <br>
+          <label>Branch</label>
+          <select name="ops">
+          	<option value=05>CSE</option>
+          	<option value=66>CSM</option>
+          	<option value=02>EEE</option>
+          	<option value=04>ECE</option>
+          </select><br>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+</form>
+</center>
+</body>
+</html>
+
